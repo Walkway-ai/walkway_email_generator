@@ -3,9 +3,9 @@
 import React, { useState, useRef } from "react";
 
 const EmailSignatureGenerator = () => {
-  const [name, setName] = useState("Emmanuel Gautier");
-  const [position, setPosition] = useState("Co-founder, Head of Data");
-  const [email, setEmail] = useState("emmanuel@walkway.ai");
+  const [name, setName] = useState("Your name");
+  const [position, setPosition] = useState("Your role");
+  const [email, setEmail] = useState("youremail@walkway.ai");
   const [website, setWebsite] = useState("walkway.ai");
   const [tagline, setTagline] = useState("Option1");
   const [logoColor, setLogoColor] = useState("#8547E6");
