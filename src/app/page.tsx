@@ -1,4 +1,3 @@
-import Image from "next/image";
 import EmailSignatureGenerator from "@/components/ui/email-signature-generator";
 
 export default function Home() {
